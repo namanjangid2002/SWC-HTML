@@ -1,0 +1,236 @@
+        body {
+            margin: 0;
+            padding: 0%;
+            display: flex;
+            flex-direction: column;
+            /* gap: 5vh; */
+        }
+
+        .topbar {
+            top: 0%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 1% 5%;
+            box-sizing: border-box;
+            position: sticky !important;
+            z-index: 999;
+            border: 0.1vw;
+            border-style: solid;
+            border-color: #D4DADF;
+            box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.06);
+            background-color: white;
+        }
+
+        .lefttop {
+            display: flex;
+        }
+
+        .swclogo {
+            display: flex;
+            width: 5vh;
+            height: 5vh;
+            margin-right: 1vw;
+        }
+
+        .movieheading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans';
+            font-weight: 800;
+            font-size: 3vh;
+            margin-right: 5vw;
+        }
+
+        .line {
+            display: flex;
+            align-items: center;
+        }
+
+        .righttop {
+            display: flex;
+        }
+
+        .searchicon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 1vw;
+        }
+
+        .inputsearchbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1vw;
+        }
+
+        .excepttopbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #F5F7F9;
+        }
+
+        .leftbar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 19.5%;
+            /* padding-left: 5%; */
+            padding-top: 2%;
+            position: -webkit-sticky !important;
+            position: sticky !important;
+            z-index: 80;
+            box-sizing: border-box;
+            border: 0.1vw;
+            border-style: solid;
+            border-color: #D4DADF;
+            height: 92vh;
+            left: 0%;
+            top: 9vh;
+            height: 91vh;
+            align-self: flex-start;
+        }
+
+        .leftbartext {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 25%;
+            gap: 3vh;
+
+        }
+
+        .searchresult {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            align-items: center;
+            justify-content: left;
+            padding-top: 5%;
+        }
+
+        .allteam {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            justify-content: left;
+        }
+
+        .core {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            justify-content: left;
+        }
+
+        .devlopers {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            justify-content: left;
+        }
+
+        .designers {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            justify-content: left;
+        }
+
+        .mentors {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            color: #1F2A33;
+            justify-content: left;
+        }
+
+        .allcards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: normal;
+            row-gap: 1vw;
+            column-gap: 8vw;
+            justify-content: space-between;
+            align-items: center;
+            align-self: center;
+            width: auto;
+            position: relative;
+            z-index: 2;
+            /* padding: 5% 10%; */
+        }
+
+        .rightbar {
+            display: flex;
+            width: 80.5%;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            padding-top: 2.1%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .addbutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .add {
+            display: flex;
+            font-size: 3vh;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            justify-content: left;
+            padding: 4% 15%;
+            border: 0.2vh;
+            border-style: solid;
+            border-color: black;
+            background-color: black;
+            border-radius: 1vh;
+            color: white;
+        }
+
+        @media screen and (max-width:1240px) {
+            .allcards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: normal;
+                row-gap: 1vw;
+                column-gap: 8vw;
+                justify-content: space-between;
+                align-items: center;
+                align-self: center;
+                width: auto;
+                /* padding: 5% 10%; */
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            .allcards {
+                display: grid;
+                grid-template-columns: 1fr;
+                column-gap: normal;
+                row-gap: 1vw;
+                column-gap: 8vw;
+                justify-content: space-between;
+                align-items: center;
+                align-self: center;
+                width: auto;
+                /* padding: 5% 10%; */
+            }
+        }
